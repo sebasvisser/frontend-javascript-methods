@@ -13,7 +13,8 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
-
+const fruitLongerVegetable = fruit.length > vegetable.length;
+console.log("Verwachte uitkomst: false => " + fruitLongerVegetable);
 
 /* Opdracht 2 */
 //  Zorg ervoor dat de laatste letter van het woord in fruit en vegetable (hierboven) in de terminal gelogd wordt.
@@ -21,6 +22,10 @@ const vegetable = "Aardappel";
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
 
+let fruitLength = fruit.length;
+let vegetableLength = vegetable.length;
+console.log("Verwachte uitkomst voor fruit: \"n\" => " + fruit[fruitLength - 1]);
+console.log("Verwachte uitkomst voor vegetable: \"l\" = > " + vegetable[vegetableLength - 1]);
 
 
 /* Opdracht 3 */
@@ -28,7 +33,7 @@ const vegetable = "Aardappel";
 // ---- Verwachte uitkomst: "De kat krabt de krullen van de trap"
 
 const userInput = "  De kat krabt de krullen van de trap ";
-
+console.log("Verwachte uitkomst: \"De kat krabt de krullen van de trap\" => " + userInput.trim());
 
 
 /* Opdracht 4 */
@@ -36,7 +41,7 @@ const userInput = "  De kat krabt de krullen van de trap ";
 // ---- Verwachte uitkomst: true
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
-
+console.log("Verwachte uitkomst: true => " + story.includes("Fantastisch", 0));
 
 
 /* Opdracht 5 */
