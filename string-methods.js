@@ -48,7 +48,8 @@ console.log("Verwachte uitkomst: true => " + story.includes("Fantastisch", 0));
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
-
+let slicePoint = story.indexOf(".");
+console.log("Verwachte uitkomst: \"We vinden de behaalde resultaten werkelijk prachtig.\" => " + story.slice(0, slicePoint));
 
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
@@ -58,6 +59,10 @@ console.log("Verwachte uitkomst: true => " + story.includes("Fantastisch", 0));
 // ---- Verwachte uitkomst: "€35,59"
 
 const price = "$35.59";
+
+let euroPrice = price.replace("$", "€");
+let euroDotPrice = euroPrice.replace(",", ".");
+console.log("erwachte uitkomst: \"€35,59\" => " + euroDotPrice);
 
 
 
