@@ -22,8 +22,8 @@ console.log("Verwachte uitkomst: false => " + fruitLongerVegetable);
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
 
-let fruitLength = fruit.length;
-let vegetableLength = vegetable.length;
+const fruitLength = fruit.length;
+const vegetableLength = vegetable.length;
 console.log("Verwachte uitkomst voor fruit: \"n\" => " + fruit[fruitLength - 1]);
 console.log("Verwachte uitkomst voor vegetable: \"l\" = > " + vegetable[vegetableLength - 1]);
 
@@ -48,7 +48,7 @@ console.log("Verwachte uitkomst: true => " + story.includes("Fantastisch", 0));
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
-let slicePoint = story.indexOf(".");
+const slicePoint = story.indexOf(".");
 console.log("Verwachte uitkomst: \"We vinden de behaalde resultaten werkelijk prachtig.\" => " + story.slice(0, slicePoint));
 
 /* Opdracht 6 */
@@ -60,8 +60,8 @@ console.log("Verwachte uitkomst: \"We vinden de behaalde resultaten werkelijk pr
 
 const price = "$35.59";
 
-let euroPrice = price.replace("$", "€");
-let euroDotPrice = euroPrice.replace(",", ".");
+const euroPrice = price.replace("$", "€");
+const euroDotPrice = euroPrice.replace(",", ".");
 console.log("erwachte uitkomst: \"€35,59\" => " + euroDotPrice);
 
 

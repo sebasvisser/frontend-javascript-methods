@@ -8,14 +8,14 @@ console.log(Math.PI);
 // Bereken de omtrek van een cirkel met een diameter van 4 en log dit in de terminal. De eenheid (cm, meters, etc. maakt niet uit).
 // Tip: de formule is omtrek = diameter * pi
 // ---- Verwachte uitkomst: 12.566370614359172
-let diameter = 4;
+const diameter = 4;
 console.log("Verwachte uitkomst: 12.566370614359172 => " + diameter * Math.PI);
 
 /* Opdracht 2: */
 // Bereken de omtrek van een cirkel met een diameter van 12 en rond dit af naar een heel getal. Log dit in de terminal.
 // ---- Verwachte uitkomst: 38
 diameter = 12;
-let roundedCircumfence = Math.round( diameter * Math.PI );
+const roundedCircumfence = Math.round( diameter * Math.PI );
 console.log("Verwachte uitkomst: 38 => " + roundedCircumfence);
 
 
@@ -34,7 +34,7 @@ console.log("Verwachte uitkomst: 3 =>"  + Math.sqrt(9));
 // Tip: iedere keer als je het script opnieuw draait (wel even een extra spatie toevoegen o.i.d.) is dit getal anders ;)
 // ---- Verwachte uitkomst: Bijbehorende zin afhankelijk van de uitkomst
 
-let randomNumber = Math.random();
+const randomNumber = Math.random();
 if(randomNumber > 0.5) {
     console.log("Het glas is halfvol");
 } else {
